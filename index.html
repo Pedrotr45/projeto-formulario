@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    
+ <form>
+    <fieldset>
+         <legend>Formulário</legend>
+         <div>
+           <input type="text" name="nome" placeholder="Digite seu nome.."/>
+         </div>
+          <div>
+            <input type="text" name="email" placeholder="Digite seu email.."/>
+          </div>
+           <div>
+              <h2>Qual sua idade?</h2>
+             <select name="lista">
+                <option disabled selected>Qual sua idade?</option>
+                <option>20</option>
+                <option>+40</option>
+                <option>+70</option>
+                
+             </select>
+           </div>
+             <h2>Qual sua cidade?</h2>
+            <div class="radio-input">
+                <div>
+                <input type="radio" name="cidade" value="Rio de janeiro"><span>Rio de janeiro</span>
+                </div>
+              <div>
+                <input type="radio" name="cidade" value="Rio grande do sul"><span>Rio grande do sul</span>
+              </div>
+              <div>
+                <input type="radio" name="cidade" value="Pernambuco"><span>Pernambuco</span>
+              </div>
+            </div>
+              <h2>Qual sua comida preferida?</h2>
+             <div class="radio-input">
+                <div>
+                <input type="checkbox" name="food" value="Doce"><span>Doce</span>
+              </div>
+              <div>
+                <input type="checkbox" name="food" value="Salgado"><span>Salgado</span>
+              </div>
+                <div>
+                  <input type="checkbox" name="food" value="Salada"><span>Salada</span>
+                </div>
+              </div>
+              <div>
+                <textarea>Deixe seu comentario.</textarea>
+              </div>
+              <div>
+                <input type="submit" name="açao" value="Enviar"/>
+              </div>
+            
+
+
+    </fieldset>
+ </form>
+ 
+         
+</body>
+</html>

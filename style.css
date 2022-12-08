@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    height: 100%;
+}
+
+
+form {
+    width: 96%;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+
+
+}
+
+form legend {
+    font-size: 38px;
+    text-align: center;
+    color: orange;
+}
+
+form fieldset {
+    padding: 30px 40px;
+    height: 800px;
+    border: 2px solid #ddd;
+    
+}
+
+form input[type=text] {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+}
+
+form input[type=text]:focus {
+    outline: 0;
+}
+
+form h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+form select {
+    display: inline-block;
+    margin-top: 20px;
+    width:80%;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+}
+
+form select:focus {
+    outline: 0;
+}
+
+form select option:nth-of-type(3){
+    color: red;
+
+}
+
+.radio-input {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+textarea {
+    margin-top: 30px;
+}
+
+input[type=submit] {
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid orange;
+    color: red;
+    cursor: pointer;
+    transition: 1s;
+
+
+}
+
+input[type=submit]:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
